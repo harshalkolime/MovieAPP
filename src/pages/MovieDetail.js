@@ -5,8 +5,9 @@ import temp from "../assets/temp.jpg";
 
 export const MovieDetail = () => {
 
-  const paramas = useParams();
+  const params = useParams();
   const [movie, setMovie] = useState({});
+// eslint-disable-line 
   const image = movie.poster_path ? `https://image.tmdb.org/t/p/w500/${movie.poster_path}` : temp;
 
 
@@ -14,13 +15,13 @@ export const MovieDetail = () => {
   useEffect(() => {
 
     async function fetchMovie() {
-      const response = await fetch(`https://api.themoviedb.org/3/movie/${paramas.id}}?api_key=2025921396f182ed03eed0f6b720ca53
+      const response = await fetch(`https://api.themoviedb.org/3/movie/${params.id}}?api_key=2025921396f182ed03eed0f6b720ca53
       `);
       const json = await response.json();
       setMovie(json);
     }
     fetchMovie();
-  }, [paramas.id])
+  }, [params.id])
 
 
   return (

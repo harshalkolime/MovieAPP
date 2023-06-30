@@ -11,16 +11,13 @@ export const Footer = () => {
       <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <Link to="/" className="hover:underline">CineMate™</Link>. All Rights Reserved.</span>
     <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
         <li>
-            <a href="#" target="_blank" rel="noreferrer" className="mr-4 hover:underline md:mr-6 ">Instagram</a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" className="mr-4 hover:underline md:mr-6 ">Instagram</a>
         </li>
         <li>
-            <a href="#" target="_blank" rel="noreferrer"  className="mr-4 hover:underline md:mr-6">Youtube</a>
+            <a href="https://www.linkedin.com/in/harshal-koli-033935235/" target="_blank" rel="noreferrer"  className="mr-4 hover:underline md:mr-6">Linkedin</a>
         </li>
         <li>
-            <a href="#" target="_blank" rel="noreferrer"  className="mr-4 hover:underline md:mr-6">Linkedin</a>
-        </li>
-        <li>
-            <a href="#" target="_blank" rel="noreferrer"  className="hover:underline">Github</a>
+            <a href="https://github.com/harshalkolime" target="_blank" rel="noreferrer"  className="hover:underline">Github</a>
         </li>
     </ul>
     </div>
