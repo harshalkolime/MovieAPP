@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { Link, NavLink, useNavigate } from "react-router-dom"
-
+import temp2 from "../assets/temp2.png";
 
 export const Header = () => {
 
@@ -46,7 +46,7 @@ export const Header = () => {
       <nav className=" drop-shadow-2xl  bg-white border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link to="/" className="flex items-center">
-            <img src="https://flowbite.com/docs/images/logo.svg" className=" h-12 mr-3" alt="Flowbite Logo" />
+            <img src={temp2} className=" h-12 mr-3" alt="Flowbite Logo" />
             <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-white">CineMate</span>
           </Link>
 
