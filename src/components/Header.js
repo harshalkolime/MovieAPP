@@ -40,7 +40,7 @@ export const Header = () => {
 
 
   return (
-    <header>
+    <header className=" fixed w-[100%]">
 
 
       <nav className=" drop-shadow-2xl  bg-white border-gray-200 dark:bg-gray-900">

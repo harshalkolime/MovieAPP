@@ -15,7 +15,7 @@ export const Search = ({apiPath}) => {
 
 
   return (
-    <main>
+    <main className='pt-[150px]'>
       
 
       <p className=' text-3xl text-gray-700 dark:text-white'>{movies.length ===0? `No results found for ${queryTerm}` :`Results for ${queryTerm}`}</p>

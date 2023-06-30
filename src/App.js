@@ -4,7 +4,7 @@ import { Header, Footer } from './components/index';
 
 function App() {
   return (
-    <div className="App dark:bg-gray-700">
+    <div className="App dark:bg-gray-700  h-[100%]">
 
       <Header/>
 
